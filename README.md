@@ -16,7 +16,7 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 
-####Image Widget
+#### Image Widget
 
 - 이미지를 꽉채워야한다 
     - 이미지를 자른다 : cover
@@ -30,7 +30,7 @@ samples, guidance on mobile development, and a full API reference.
 Image.asset('assets/images/woman.jpg', fit : BoxtFit.contain);
 ```
 
-####Input Widget
+#### Input Widget
 
 - __Text Field__
     - onChanged : 키 입력이 끝날떄마다 불리는 이벤트 헨들러 _ex) Textfield(onChanged : (String __val__) => _searchTerm = __val__,)_
